@@ -17,7 +17,7 @@ $ python app.py
 
 Open your browser, and visit <http://localhost:5000/>
 
-As soon as your Android app makes a POST request to the server with an activity label, your browser will display it. 
+As soon as your Android app makes a fresh classification, have your app send a POST request to the server with the new activity label, Your browser will keep updating the new activity labels. 
 
 To conveniently make HTTP GET or POST requests from Android, you might find [Volley](https://developer.android.com/training/volley) useful. 
 [This page](https://nabeelj.medium.com/making-a-simple-get-and-post-request-using-volley-beginners-guide-ee608f10c0a9) provides sample codes making GET and POST 
