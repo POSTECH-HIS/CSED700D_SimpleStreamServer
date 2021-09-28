@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test Server</title>
+    <style>
+    </style>
+</head>
+<body>
+    <h3>
+        Current activity: <span id="current_activity">No activity yet...</span>
+    </h3>
+</body>
+<script>
+var targetContainer = document.getElementById("current_activity");
+var eventSource = new EventSource("/stream")
+  eventSource.onmessage = function(e) {
+  targetContainer.innerHTML = e.data;
+};
+</script>
+</html>
