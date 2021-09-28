@@ -23,4 +23,4 @@ To conveniently make HTTP GET or POST requests from Android, you might find [Vol
 [This page](https://nabeelj.medium.com/making-a-simple-get-and-post-request-using-volley-beginners-guide-ee608f10c0a9) provides sample codes making GET and POST 
 requests using Volley. 
 
-To test the server by manually making a POST request, you may open the enclosed post.html using your browser on the machine where the server runs. (Modify the POST URL in the HTML input form if testing from a different machine.)
+To test the server by manually making a POST request, you may download the enclosed post.html and open it using your browser on the machine where the server runs. (Modify the POST URL in the HTML input form if testing from a different machine.)
