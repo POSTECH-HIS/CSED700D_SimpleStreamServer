@@ -1,6 +1,9 @@
 # CSED700D Simple HTTP Stream Server
-- Tested with Python 3.9.6 and Flask 2.0.1
-- Server listens to 5000 port by default
+
+## Tested with:
+- Python 3.9.6
+- Flask 2.0.1
+- Chrome 94.0.4606.61 (which is the current stable release in Windows, Mac, and Linux, as of September 24, 2021. 
 
 ## Usage
 
@@ -15,7 +18,7 @@ Running the server:
 $ python app.py
 ```
 
-Open your browser, and visit <http://localhost:5000/>
+Open your browser, and visit <http://localhost:5000/> (Server listens to 5000 port by default.)
 
 As soon as your Android app makes a fresh classification, have your app send a POST request to the server with the new activity label. Your browser will keep updating the new activity labels. 
 
